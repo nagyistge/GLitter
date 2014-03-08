@@ -1,0 +1,65 @@
+body { margin: 0; padding: 0 }
+.content canvas {
+    margin: 0 0 0 1px;
+    padding: 0;
+}
+
+.content {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 48px;
+    color: #ddd;
+}
+
+.content .title {
+    position: absolute;
+    padding: 16px;
+    background-color: #045598;
+    border-radius: 28px;
+    margin: 12px;
+}
+
+.content .subtitle {
+    position: absolute;
+    top: 120px;
+    margin: 12px;
+}
+
+.content .subtitle p {
+    margin-top: 50px;
+}
+.content .subtitle p span {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(200,50,50,0.3);
+}
+.info {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    margin: 8px;
+    font-size: 24px;
+    font-family: courier, sans-serif;
+    white-space: pre;
+    color: #eee;
+}
+.matrix {
+    border: 4px solid white;
+    padding: 8px;
+}
+.matrix::before {
+    content: " ";
+    border-top: 4px solid #bb3388;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+}
+.matrix::after {
+    content: " ";
+    border-top: 4px solid #bb3388;
+    position: absolute;
+    bottom: -28px;
+    left: 5%;
+    width: 90%;
+}
